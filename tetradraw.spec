@@ -1,12 +1,12 @@
 Summary:	ASCII-art graphics program
 Summary(pl):	Program do tworzenia ASCII-artów
 Name:		tetradraw
-Version:	2.0.2
-Release:	2
+Version:	2.0.3
+Release:	1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://tentacle.dhs.org/%{name}-%{version}.tar.gz
-# Source0-md5:	a01315812472dbda419ced1c4f7be525
+# Source0-md5:	f3bb1802ff9e27d80c96225323715139
 Patch0:		%{name}-am_fix.patch
 URL:		http://tentacle.dhs.org/
 BuildRequires:	autoconf
