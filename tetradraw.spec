@@ -5,8 +5,6 @@ Version:	2.0.2
 Release:	2
 License:	GPL
 Group:		Applications/Graphics
-Group(de):	Applikationen/Grafik
-Group(pl):	Aplikacje/Grafika
 Source0:	http://tentacle.dhs.org/%{name}-%{version}.tar.gz
 Patch0:		%{name}-am_fix.patch
 URL:		http://tentacle.dhs.org/
