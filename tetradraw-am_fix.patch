@@ -1,0 +1,11 @@
+diff -Nru tetradraw-2.0.2/src/Makefile.am tetradraw-2.0.2.new/src/Makefile.am
+--- tetradraw-2.0.2/src/Makefile.am	Sun Sep 17 03:38:07 2000
++++ tetradraw-2.0.2.new/src/Makefile.am	Fri Jan 19 22:52:45 2001
+@@ -5,7 +5,6 @@
+ 
+ LDFLAGS = -L$(top_srcdir)/src
+ INCLUDES = -I$(top_srcdir) -I.
+-CFLAGS = -Wall -ggdb3
+ 
+ bin_PROGRAMS = tetradraw tetraview
+ 
