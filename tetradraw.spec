@@ -30,7 +30,7 @@ programie fancylogin.
 aclocal
 autoconf
 automake -a -c
-CFLAGS="%{!?debug:$RPM_OPT_FLAGS}%{?debug:-O0 -g} -I%{_includedir}/ncurses"
+CFLAGS="%{rpmcflags} -I%{_includedir}/ncurses"
 %configure 
 %{__make}
 
