@@ -29,8 +29,8 @@ programie fancylogin.
 rm -f missing
 libtoolize --copy --force
 aclocal
-autoconf
-automake -a -c -f
+%{__autoconf}
+%{__automake}
 CFLAGS="%{rpmcflags} -I%{_includedir}/ncurses"
 %configure
 %{__make}
