@@ -28,7 +28,7 @@ programie fancylogin.
 %build
 rm -f missing
 %{__libtoolize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 CFLAGS="%{rpmcflags} -I%{_includedir}/ncurses"
