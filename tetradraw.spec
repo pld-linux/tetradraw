@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://tentacle.dhs.org/%{name}-%{version}.tar.gz
+# Source0-md5:	a01315812472dbda419ced1c4f7be525
 Patch0:		%{name}-am_fix.patch
 URL:		http://tentacle.dhs.org/
 BuildRequires:	autoconf
