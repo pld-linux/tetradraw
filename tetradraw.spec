@@ -12,6 +12,7 @@ Patch0:		%{name}-am_fix.patch
 URL:		http://tentacle.dhs.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libtool
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
