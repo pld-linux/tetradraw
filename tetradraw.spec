@@ -2,7 +2,7 @@ Summary:	ASCII-art graphics program
 Summary(pl):	Program do tworzenia ASCII-artów
 Name:		tetradraw
 Version:	2.0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Group(de):	Applikationen/Grafik
@@ -27,6 +27,8 @@ programie fancylogin.
 %patch -p1
 
 %build
+rm -f missing
+libtoolize --copy --force
 aclocal
 autoconf
 automake -a -c
