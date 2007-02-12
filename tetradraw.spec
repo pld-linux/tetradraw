@@ -1,5 +1,5 @@
 Summary:	ASCII-art graphics program
-Summary(pl.UTF-8):   Program do tworzenia ASCII-artów
+Summary(pl.UTF-8):	Program do tworzenia ASCII-artów
 Name:		tetradraw
 Version:	2.0.3
 Release:	1
