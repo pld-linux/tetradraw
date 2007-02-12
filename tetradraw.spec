@@ -1,5 +1,5 @@
 Summary:	ASCII-art graphics program
-Summary(pl):	Program do tworzenia ASCII-artów
+Summary(pl.UTF-8):   Program do tworzenia ASCII-artÃ³w
 Name:		tetradraw
 Version:	2.0.3
 Release:	1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Simple program to create ASCII arts which can You use in fancylogin.
 
-%description -l pl
-Prosty program do tworzenia ASCII artów które mo¿esz wykorzystaæ w
+%description -l pl.UTF-8
+Prosty program do tworzenia ASCII artÃ³w ktÃ³re moÅ¼esz wykorzystaÄ‡ w
 programie fancylogin.
 
 %prep
